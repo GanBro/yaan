@@ -1,0 +1,32 @@
+val: 按未来两帧总降水量排序 Top-30
+================================================================================
+sample_index= 366 | out_start=2025092823 | out_end=2025092900 | sum=5801.793945 | mean=3.334364 | max=11.480400 | event_ratio=0.987931 | nonzero_ratio=0.998276
+sample_index= 367 | out_start=2025092900 | out_end=2025092901 | sum=4412.370117 | mean=2.535845 | max=11.480400 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index= 365 | out_start=2025092822 | out_end=2025092823 | sum=4285.074219 | mean=2.462686 | max=11.086900 | event_ratio=0.834483 | nonzero_ratio=0.902874
+sample_index=1157 | out_start=2025103122 | out_end=2025103123 | sum=3727.518799 | mean=2.142252 | max=6.300000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index=1156 | out_start=2025103121 | out_end=2025103122 | sum=3630.677002 | mean=2.086596 | max=5.900000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index= 368 | out_start=2025092901 | out_end=2025092902 | sum=3446.027832 | mean=1.980476 | max=7.924500 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index=1155 | out_start=2025103120 | out_end=2025103121 | sum=3087.333252 | mean=1.774329 | max=3.749500 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index=1153 | out_start=2025103118 | out_end=2025103119 | sum=2969.824463 | mean=1.706796 | max=3.600000 | event_ratio=0.998851 | nonzero_ratio=1.000000
+sample_index= 203 | out_start=2025092204 | out_end=2025092205 | sum=2779.933105 | mean=1.597663 | max=7.176600 | event_ratio=0.991379 | nonzero_ratio=0.998276
+sample_index= 369 | out_start=2025092902 | out_end=2025092903 | sum=2737.468994 | mean=1.573258 | max=6.000000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index=1158 | out_start=2025103123 | out_end=2025110100 | sum=2722.578613 | mean=1.564700 | max=6.300000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index=1152 | out_start=2025103117 | out_end=2025103118 | sum=2671.515625 | mean=1.535354 | max=3.600000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index=1154 | out_start=2025103119 | out_end=2025103120 | sum=2492.458008 | mean=1.432447 | max=3.400000 | event_ratio=0.998851 | nonzero_ratio=1.000000
+sample_index=1188 | out_start=2025110205 | out_end=2025110206 | sum=2404.030273 | mean=1.381627 | max=2.383200 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index= 698 | out_start=2025101219 | out_end=2025101220 | sum=2390.039062 | mean=1.373586 | max=10.800000 | event_ratio=0.704023 | nonzero_ratio=0.812069
+sample_index= 204 | out_start=2025092205 | out_end=2025092206 | sum=2239.927490 | mean=1.287315 | max=4.545700 | event_ratio=0.990230 | nonzero_ratio=0.999425
+sample_index=  88 | out_start=2025091709 | out_end=2025091710 | sum=2143.826660 | mean=1.232084 | max=5.100000 | event_ratio=0.947701 | nonzero_ratio=0.994828
+sample_index=1210 | out_start=2025110303 | out_end=2025110304 | sum=2141.488281 | mean=1.230740 | max=2.600000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index= 699 | out_start=2025101220 | out_end=2025101221 | sum=2097.047852 | mean=1.205200 | max=10.800000 | event_ratio=0.772989 | nonzero_ratio=0.922414
+sample_index= 104 | out_start=2025091801 | out_end=2025091802 | sum=1971.995361 | mean=1.133331 | max=3.002100 | event_ratio=0.990230 | nonzero_ratio=0.998851
+sample_index=1209 | out_start=2025110302 | out_end=2025110303 | sum=1966.013550 | mean=1.129893 | max=2.836600 | event_ratio=0.995977 | nonzero_ratio=0.999425
+sample_index=  89 | out_start=2025091710 | out_end=2025091711 | sum=1891.547485 | mean=1.087096 | max=5.100000 | event_ratio=0.934483 | nonzero_ratio=0.991954
+sample_index= 364 | out_start=2025092821 | out_end=2025092822 | sum=1881.095703 | mean=1.081089 | max=11.801000 | event_ratio=0.559770 | nonzero_ratio=0.710920
+sample_index=1211 | out_start=2025110304 | out_end=2025110305 | sum=1875.061279 | mean=1.077621 | max=1.924000 | event_ratio=1.000000 | nonzero_ratio=1.000000
+sample_index= 372 | out_start=2025092905 | out_end=2025092906 | sum=1862.809082 | mean=1.070580 | max=5.419000 | event_ratio=0.998276 | nonzero_ratio=0.999425
+sample_index=  87 | out_start=2025091708 | out_end=2025091709 | sum=1804.228760 | mean=1.036913 | max=4.610800 | event_ratio=0.928161 | nonzero_ratio=0.996552
+sample_index=1187 | out_start=2025110204 | out_end=2025110205 | sum=1672.600464 | mean=0.961265 | max=2.200000 | event_ratio=0.997701 | nonzero_ratio=1.000000
+sample_index=1189 | out_start=2025110206 | out_end=2025110207 | sum=1646.056396 | mean=0.946009 | max=2.383200 | event_ratio=0.987931 | nonzero_ratio=0.999425
+sample_index=1208 | out_start=2025110301 | out_end=2025110302 | sum=1635.706787 | mean=0.940061 | max=2.836600 | event_ratio=0.995977 | nonzero_ratio=0.999425
+sample_index= 371 | out_start=2025092904 | out_end=2025092905 | sum=1630.446777 | mean=0.937038 | max=5.419000 | event_ratio=0.894828 | nonzero_ratio=0.958621

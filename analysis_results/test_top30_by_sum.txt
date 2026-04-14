@@ -1,0 +1,32 @@
+test: 按未来两帧总降水量排序 Top-30
+================================================================================
+sample_index=1278 | out_start=2025123021 | out_end=2025123022 | sum=261.893311 | mean=0.150513 | max=0.973900 | event_ratio=0.536207 | nonzero_ratio=0.690805
+sample_index= 320 | out_start=2025112023 | out_end=2025112100 | sum=210.636993 | mean=0.121056 | max=2.355000 | event_ratio=0.159770 | nonzero_ratio=0.247126
+sample_index=1279 | out_start=2025123022 | out_end=2025123023 | sum=180.219406 | mean=0.103574 | max=0.700000 | event_ratio=0.412069 | nonzero_ratio=0.483333
+sample_index= 321 | out_start=2025112100 | out_end=2025112101 | sum=171.966003 | mean=0.098831 | max=2.355000 | event_ratio=0.168391 | nonzero_ratio=0.281034
+sample_index=1277 | out_start=2025123020 | out_end=2025123021 | sum=147.456482 | mean=0.084745 | max=0.973900 | event_ratio=0.248276 | nonzero_ratio=0.376437
+sample_index= 319 | out_start=2025112022 | out_end=2025112023 | sum=129.602600 | mean=0.074484 | max=2.150100 | event_ratio=0.109770 | nonzero_ratio=0.146552
+sample_index= 322 | out_start=2025112101 | out_end=2025112102 | sum=121.733398 | mean=0.069962 | max=1.222100 | event_ratio=0.170690 | nonzero_ratio=0.317241
+sample_index=1293 | out_start=2025123112 | out_end=2025123113 | sum=89.626602 | mean=0.051510 | max=1.443600 | event_ratio=0.113793 | nonzero_ratio=0.136207
+sample_index=1294 | out_start=2025123113 | out_end=2025123114 | sum=88.007393 | mean=0.050579 | max=1.443600 | event_ratio=0.110920 | nonzero_ratio=0.124713
+sample_index= 323 | out_start=2025112102 | out_end=2025112103 | sum=66.579895 | mean=0.038264 | max=0.667700 | event_ratio=0.118391 | nonzero_ratio=0.213793
+sample_index=1276 | out_start=2025123019 | out_end=2025123020 | sum=64.482597 | mean=0.037059 | max=0.600000 | event_ratio=0.117816 | nonzero_ratio=0.162644
+sample_index= 234 | out_start=2025111703 | out_end=2025111704 | sum=43.194099 | mean=0.024824 | max=0.707400 | event_ratio=0.081034 | nonzero_ratio=0.179885
+sample_index= 284 | out_start=2025111911 | out_end=2025111912 | sum=39.164600 | mean=0.022508 | max=1.508000 | event_ratio=0.075287 | nonzero_ratio=0.100000
+sample_index= 232 | out_start=2025111701 | out_end=2025111702 | sum=37.901001 | mean=0.021782 | max=0.517500 | event_ratio=0.096552 | nonzero_ratio=0.140805
+sample_index= 318 | out_start=2025112021 | out_end=2025112022 | sum=34.551498 | mean=0.019857 | max=0.715500 | event_ratio=0.067241 | nonzero_ratio=0.117241
+sample_index= 231 | out_start=2025111700 | out_end=2025111701 | sum=31.455301 | mean=0.018078 | max=0.517500 | event_ratio=0.081609 | nonzero_ratio=0.108046
+sample_index= 235 | out_start=2025111704 | out_end=2025111705 | sum=30.139402 | mean=0.017321 | max=0.707400 | event_ratio=0.044253 | nonzero_ratio=0.124138
+sample_index= 233 | out_start=2025111702 | out_end=2025111703 | sum=29.919102 | mean=0.017195 | max=0.407400 | event_ratio=0.079885 | nonzero_ratio=0.126437
+sample_index= 115 | out_start=2025111204 | out_end=2025111205 | sum=29.787600 | mean=0.017119 | max=0.379300 | event_ratio=0.067241 | nonzero_ratio=0.166092
+sample_index= 114 | out_start=2025111203 | out_end=2025111204 | sum=24.240198 | mean=0.013931 | max=0.379300 | event_ratio=0.053448 | nonzero_ratio=0.151149
+sample_index= 283 | out_start=2025111910 | out_end=2025111911 | sum=24.130899 | mean=0.013868 | max=1.000000 | event_ratio=0.055172 | nonzero_ratio=0.075862
+sample_index= 613 | out_start=2025120304 | out_end=2025120305 | sum=22.257401 | mean=0.012792 | max=0.457200 | event_ratio=0.044253 | nonzero_ratio=0.094253
+sample_index= 163 | out_start=2025111404 | out_end=2025111405 | sum=21.666101 | mean=0.012452 | max=0.295000 | event_ratio=0.064368 | nonzero_ratio=0.066092
+sample_index= 137 | out_start=2025111302 | out_end=2025111303 | sum=20.498699 | mean=0.011781 | max=0.259700 | event_ratio=0.056322 | nonzero_ratio=0.094253
+sample_index= 138 | out_start=2025111303 | out_end=2025111304 | sum=20.422300 | mean=0.011737 | max=0.259700 | event_ratio=0.060920 | nonzero_ratio=0.086782
+sample_index= 113 | out_start=2025111202 | out_end=2025111203 | sum=20.094601 | mean=0.011549 | max=0.308700 | event_ratio=0.044828 | nonzero_ratio=0.135057
+sample_index= 614 | out_start=2025120305 | out_end=2025120306 | sum=19.748899 | mean=0.011350 | max=0.416600 | event_ratio=0.040805 | nonzero_ratio=0.091954
+sample_index= 612 | out_start=2025120303 | out_end=2025120304 | sum=18.899599 | mean=0.010862 | max=0.457200 | event_ratio=0.045402 | nonzero_ratio=0.055747
+sample_index= 324 | out_start=2025112103 | out_end=2025112104 | sum=16.506401 | mean=0.009486 | max=0.412300 | event_ratio=0.038506 | nonzero_ratio=0.038506
+sample_index= 228 | out_start=2025111621 | out_end=2025111622 | sum=16.087700 | mean=0.009246 | max=0.424600 | event_ratio=0.038506 | nonzero_ratio=0.051149

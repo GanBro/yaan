@@ -1,0 +1,115 @@
+重划分报告（按事件强度分层 + 时间块分配）
+========================================================================================
+data_dir = /mnt/hdd1/wubo/projects/yaan_precip_4to2/pre_region_npz
+input_len = 4
+pred_len = 2
+event_threshold = 0.1
+use_target_mask_only = False
+event_ratio_bins = [0.001, 0.03, 0.15]
+block_size = 24
+
+一、原始样本整体概况
+{
+  "num_samples": 8727,
+  "sample_sum_mean": 177.29772840744099,
+  "sample_sum_median": 0.0,
+  "sample_sum_p90": 282.8277832031251,
+  "sample_mean_mean": 0.10189524605045273,
+  "sample_max_mean": 0.8784813561095893,
+  "sample_max_p95": 4.423310041427576,
+  "event_ratio_mean": 0.08991839304365236,
+  "event_ratio_median": 0.0,
+  "event_ratio_p90": 0.35080459770114975,
+  "nonzero_ratio_mean": 0.11460877788446214,
+  "bucket_counts": {
+    "no_rain_like": 5716,
+    "moderate": 620,
+    "heavy": 1284,
+    "weak": 1107
+  },
+  "time_start": "2025010104",
+  "time_end": "2025123123"
+}
+
+二、block 分布概况
+{
+  "num_blocks": 364,
+  "bucket_counts": {
+    "no_rain_like": 123,
+    "weak": 93,
+    "heavy": 76,
+    "moderate": 72
+  }
+}
+
+三、新划分后各集合概况
+{
+  "train": {
+    "num_samples": 6087,
+    "sample_sum_mean": 187.14273200627645,
+    "sample_sum_median": 0.0,
+    "sample_sum_p90": 304.5127319335946,
+    "sample_mean_mean": 0.1075532941000744,
+    "sample_max_mean": 0.9447273369078331,
+    "sample_max_p95": 5.0,
+    "event_ratio_mean": 0.08938674658070996,
+    "event_ratio_median": 0.0,
+    "event_ratio_p90": 0.355402298850575,
+    "nonzero_ratio_mean": 0.11345169373584933,
+    "bucket_counts": {
+      "no_rain_like": 4016,
+      "weak": 764,
+      "moderate": 421,
+      "heavy": 886
+    },
+    "time_start": "2025120408",
+    "time_end": "2025032520"
+  },
+  "val": {
+    "num_samples": 1296,
+    "sample_sum_mean": 144.8453074758003,
+    "sample_sum_median": 0.0,
+    "sample_sum_p90": 263.7279510498047,
+    "sample_mean_mean": 0.08324442933459829,
+    "sample_max_mean": 0.7333653554123435,
+    "sample_max_p95": 3.7964000701904297,
+    "event_ratio_mean": 0.08458608273023982,
+    "event_ratio_median": 0.0,
+    "event_ratio_p90": 0.32385057471264367,
+    "nonzero_ratio_mean": 0.10742071094082588,
+    "bucket_counts": {
+      "moderate": 91,
+      "weak": 153,
+      "no_rain_like": 869,
+      "heavy": 183
+    },
+    "time_start": "2025010904",
+    "time_end": "2025112608"
+  },
+  "test": {
+    "num_samples": 1344,
+    "sample_sum_mean": 164.00293720304728,
+    "sample_sum_median": 0.03620000183582306,
+    "sample_sum_p90": 227.76788482666052,
+    "sample_mean_mean": 0.09425456151600355,
+    "sample_max_mean": 0.7183854124970301,
+    "sample_max_p95": 2.831110048294064,
+    "event_ratio_mean": 0.09746810002736726,
+    "event_ratio_median": 0.0,
+    "event_ratio_p90": 0.3545402298850577,
+    "nonzero_ratio_mean": 0.1267805829228243,
+    "bucket_counts": {
+      "moderate": 108,
+      "no_rain_like": 831,
+      "weak": 190,
+      "heavy": 215
+    },
+    "time_start": "2025102102",
+    "time_end": "2025090920"
+  }
+}
+
+四、说明
+1. 该脚本并非随机打散单个样本，而是先按连续窗口构成时间块，再做分层分配，以减少相邻重叠样本泄漏。
+2. 分层依据为未来两帧 event_ratio；可按任务需要改成 sample_sum 或 target_mask 内 event_ratio。
+3. 如果目标是严格时间外推评估，则不应使用该方案作为最终论文主划分，而更适合作为分布平衡评估或辅助实验。

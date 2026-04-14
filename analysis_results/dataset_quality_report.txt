@@ -1,0 +1,67 @@
+降水数据质量分析报告
+================================================================================
+data_dir = /mnt/hdd1/wubo/projects/yaan_precip_4to2/pre_region_npz
+input_len = 4
+pred_len = 2
+event_threshold = 0.1
+use_target_mask_only = False
+
+[train]
+  pixel_count: 10624440
+  pixel_mean: 0.126709
+  pixel_std: 0.769967
+  pixel_min: 0.000000
+  pixel_p50: 0.000000
+  pixel_p90: 0.102500
+  pixel_p95: 0.537600
+  pixel_p99: 2.922900
+  pixel_max: 63.528099
+  num_samples: 6106
+  global_event_ratio: 0.101369
+  global_nonzero_ratio: 0.129432
+  mean_sample_sum: 220.474123
+  median_sample_sum: 0.000000
+  mean_sample_max: 1.094715
+  median_sample_max: 0.000000
+  mean_event_ratio: 0.101369
+  median_event_ratio: 0.000000
+
+[val]
+  pixel_count: 2274180
+  pixel_mean: 0.087345
+  pixel_std: 0.368732
+  pixel_min: 0.000000
+  pixel_p50: 0.000000
+  pixel_p90: 0.178300
+  pixel_p95: 0.553900
+  pixel_p99: 1.700000
+  pixel_max: 20.409000
+  num_samples: 1307
+  global_event_ratio: 0.123475
+  global_nonzero_ratio: 0.154956
+  mean_sample_sum: 151.980344
+  median_sample_sum: 0.435500
+  mean_sample_max: 0.704929
+  median_sample_max: 0.117600
+  mean_event_ratio: 0.123475
+  median_event_ratio: 0.001149
+
+[test]
+  pixel_count: 2268960
+  pixel_mean: 0.001068
+  pixel_std: 0.022144
+  pixel_min: 0.000000
+  pixel_p50: 0.000000
+  pixel_p90: 0.000000
+  pixel_p95: 0.000000
+  pixel_p99: 0.000000
+  pixel_max: 2.355000
+  num_samples: 1304
+  global_event_ratio: 0.003353
+  global_nonzero_ratio: 0.005633
+  mean_sample_sum: 1.858332
+  median_sample_sum: 0.000000
+  mean_sample_max: 0.046344
+  median_sample_max: 0.000000
+  mean_event_ratio: 0.003353
+  median_event_ratio: 0.000000
